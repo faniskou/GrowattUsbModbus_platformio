@@ -3,7 +3,7 @@
 namespace DefaultConfig
 {
 	constexpr const char* const hostName = "GrowattMB2USB";
-	constexpr const char* const wifiPassword = "growatt";
+	constexpr const char* const wifiPassword = "growattfanis";
 	
 	// MQTT
 	constexpr const char* const mqttServer = "192.168.20.10";
@@ -16,5 +16,5 @@ namespace DefaultConfig
 
 	// Over-the-Air updater
 	constexpr const char* const otaUser = "ota";
-	constexpr const char* const otaPassword = "growatt";
+	constexpr const char* const otaPassword = "growattfanis";
 }

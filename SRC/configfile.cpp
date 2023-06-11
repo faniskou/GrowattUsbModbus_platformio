@@ -1,9 +1,10 @@
 #include "configfile.h"
 
 #include "LittleFS.h"
-#include <String.h>
+
 
 #include "debug.h"
+
 
 String ConfigFile::get(const char* _key, const char* _default)
 {
